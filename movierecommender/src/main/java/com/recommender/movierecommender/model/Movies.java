@@ -15,7 +15,7 @@ import lombok.Setter;
 @Data
 public class Movies {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	String title;
 	String description;
