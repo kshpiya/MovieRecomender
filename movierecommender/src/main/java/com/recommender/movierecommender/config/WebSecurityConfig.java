@@ -12,7 +12,7 @@ import com.recommender.movierecommender.service.UserService;
  
 @Configuration
 public class WebSecurityConfig {
- 
+
     @Bean
     SecurityFilterChain configure(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests(auth -> auth

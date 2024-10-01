@@ -6,5 +6,4 @@ import com.recommender.movierecommender.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 	
-	User findByUsername(String username);
 }
